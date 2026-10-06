@@ -1,0 +1,18 @@
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Local Python virtual environment
+.venv/
+
+# Local Python cache and database
+__pycache__/
+*.py[cod]
+db.sqlite3
