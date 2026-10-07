@@ -1,0 +1,28 @@
+[
+{
+  "model": "polls.question",
+  "pk": 1,
+  "fields": {
+    "question_text": "What's up?",
+    "pub_date": "2026-10-07T00:55:15.195Z"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 34,
+  "fields": {
+    "question": 1,
+    "choice_text": "Not much",
+    "votes": 3
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 35,
+  "fields": {
+    "question": 1,
+    "choice_text": "The sky",
+    "votes": 1
+  }
+}
+]
