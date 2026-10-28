@@ -1,0 +1,14 @@
+language: python
+python:
+  - "3.9"
+
+env:
+  global:
+    - DJANGO_SECRET_KEY=travis-test-secret-key
+
+install:
+  - python -m pip install --upgrade pip
+  - pip install -r requirements.txt
+
+script:
+  - python manage.py test
