@@ -17,3 +17,11 @@ script:
   - flake8 .
   - coverage run manage.py test
   - coveralls
+
+deploy:
+  provider: elasticbeanstalk
+  region: us-east-2
+  app: django-tutorial
+  env: Django-tutorial-env
+  on:
+    branch: main
