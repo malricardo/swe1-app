@@ -22,5 +22,6 @@ deploy:
   region: us-east-2
   app: django-tutorial
   env: Django-tutorial-env
+  bucket_name: elasticbeanstalk-us-east-2-836505524335
   on:
     branch: main
