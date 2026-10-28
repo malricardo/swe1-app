@@ -4,4 +4,4 @@
 
 [![Coverage Status](https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_82.svg)](https://coveralls.io/github/malricardo/swe1-app)
 
-#fixcoverage
+<!-- Fork PR test -->
