@@ -3,6 +3,7 @@
 import os
 import sys
 
+""" Testing CI/CD with Travis CI """
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ebdjango.settings')
