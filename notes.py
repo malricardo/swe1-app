@@ -22,3 +22,8 @@ git_pull_main = "git pull origin main"
 # 4. Wait for passing CI checks.
 # 5. Merge the pull request.
 # 6. Update the local main branch with git switch and git pull.
+
+# git status
+# git add notes.py
+# git commit -m "Add Git workflow notes"
+# git push origin main
