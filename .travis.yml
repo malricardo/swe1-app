@@ -12,3 +12,8 @@ install:
 
 script:
   - python manage.py test
+  ## Adding coveralls
+  - black --check .
+  - flake8 .
+  - coverage run manage.py test
+  - coveralls
